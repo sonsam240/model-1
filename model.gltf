@@ -1,0 +1,170 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0897bb3786688dd8ac0e16e7ca439aa83b5dca11",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 86703,
+            "type": "VEC3",
+            "max": [
+                0.7981617450714111,
+                0.7981617450714111,
+                0.7981617450714111
+            ],
+            "min": [
+                -0.7981617450714111,
+                -0.7981617450714111,
+                -0.7981617450714111
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 86703,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 86703,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 497664,
+            "type": "SCALAR",
+            "max": [
+                86702.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1040436,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1040436,
+            "byteLength": 1040436,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2080872,
+            "byteLength": 693624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2774496,
+            "byteLength": 1990656,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 4765152,
+            "uri": "model_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000019519717170624064,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5299999713897705
+            },
+            "name": "Plastic"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "abstract_cube",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.6994029879570007,
+                -0.02645156718790531,
+                0.6362335085868836
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.0,
+                0.2817428410053253,
+                9.53674295089968e-9
+            ],
+            "scale": [
+                0.35298964381217959,
+                0.35298964381217959,
+                0.35298964381217959
+            ],
+            "mesh": 0,
+            "name": "abstract_cube"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
